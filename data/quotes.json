@@ -1,0 +1,203 @@
+{
+  "version": "2.0",
+  "quotes": [
+    {
+      "text": "Force push to main? Bold strategy. Let's see if it pays off.",
+      "category": "git",
+      "tags": ["humor", "sarcasm", "dark"],
+      "weight": 4
+    },
+    {
+      "text": "'git blame' exists because accountability matters more than feelings.",
+      "category": "git",
+      "tags": ["truth", "sarcasm"],
+      "weight": 3
+    },
+    {
+      "text": "Your commit message says 'minor fix'. The diff is 847 lines.",
+      "category": "git",
+      "tags": ["humor", "relatable", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "Rebasing is just lying about history with extra steps.",
+      "category": "git",
+      "tags": ["humor", "wisdom"],
+      "weight": 3
+    },
+    {
+      "text": "You wrote 'WIP' 6 commits ago. At what point does it become 'the project'?",
+      "category": "git",
+      "tags": ["relatable", "sarcasm", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "The bug is not in the library. The bug is never in the library. ...Okay sometimes it's in the library.",
+      "category": "debugging",
+      "tags": ["humor", "truth", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "console.log('here') console.log('here2') console.log('WHY') \u2014 a debugging classic.",
+      "category": "debugging",
+      "tags": ["humor", "relatable", "pain"],
+      "weight": 5
+    },
+    {
+      "text": "You don't fix bugs. You just move them to a place nobody checks.",
+      "category": "debugging",
+      "tags": ["dark", "truth", "wisdom"],
+      "weight": 3
+    },
+    {
+      "text": "If debugging is removing bugs, then programming is putting them in.",
+      "category": "debugging",
+      "tags": ["wisdom", "humor", "meta"],
+      "weight": 3
+    },
+    {
+      "text": "It worked yesterday. Nothing changed. It doesn't work today. Welcome to software.",
+      "category": "debugging",
+      "tags": ["relatable", "pain", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "This meeting could've been a Slack message. That Slack message could've been silence.",
+      "category": "meetings",
+      "tags": ["humor", "truth", "sarcasm"],
+      "weight": 5
+    },
+    {
+      "text": "'Let's circle back' is corporate for 'I stopped listening 10 minutes ago'.",
+      "category": "meetings",
+      "tags": ["sarcasm", "truth", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "Stand-up took 45 minutes. We are no longer standing.",
+      "category": "meetings",
+      "tags": ["humor", "sarcasm"],
+      "weight": 4
+    },
+    {
+      "text": "The best code I ever wrote was during a meeting I wasn't paying attention to.",
+      "category": "meetings",
+      "tags": ["humor", "relatable", "wisdom"],
+      "weight": 3
+    },
+    {
+      "text": "'Quick sync' \u2014 the two most dangerous words in a calendar invite.",
+      "category": "meetings",
+      "tags": ["sarcasm", "truth", "dark"],
+      "weight": 3
+    },
+    {
+      "text": "LGTM = Let's Go To Main (without actually reading the code).",
+      "category": "code-review",
+      "tags": ["humor", "truth", "sarcasm"],
+      "weight": 4
+    },
+    {
+      "text": "'Nit:' is just a polite way of saying 'I need to justify my review time'.",
+      "category": "code-review",
+      "tags": ["sarcasm", "truth"],
+      "weight": 3
+    },
+    {
+      "text": "Your PR has 2 approvals and 47 unresolved comments. Ship it.",
+      "category": "code-review",
+      "tags": ["humor", "dark", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "The reviewer who says 'just a small suggestion' is about to rewrite your architecture.",
+      "category": "code-review",
+      "tags": ["truth", "pain", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "'Can you add tests?' \u2014 The most feared 4 words in a code review.",
+      "category": "code-review",
+      "tags": ["humor", "pain", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "Deploy on Friday. What could possibly go wrong? ...Everything. Everything could.",
+      "category": "production",
+      "tags": ["humor", "dark", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "Hotfix at 3 AM builds character. Mostly bitter, resentful character.",
+      "category": "production",
+      "tags": ["dark", "pain", "humor"],
+      "weight": 4
+    },
+    {
+      "text": "The monitoring dashboard is green. This means nothing and we all know it.",
+      "category": "production",
+      "tags": ["dark", "truth", "sarcasm"],
+      "weight": 3
+    },
+    {
+      "text": "Rollback is not failure. Rollback is wisdom disguised as retreat.",
+      "category": "production",
+      "tags": ["wisdom", "truth"],
+      "weight": 2
+    },
+    {
+      "text": "'Works in staging' is the developer equivalent of 'thoughts and prayers'.",
+      "category": "production",
+      "tags": ["humor", "sarcasm", "dark"],
+      "weight": 4
+    },
+    {
+      "text": "'It works on my machine' is not a deployment strategy.",
+      "category": "general",
+      "tags": ["humor", "truth", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "There are only two hard things: cache invalidation, naming things, and off-by-one errors.",
+      "category": "general",
+      "tags": ["humor", "meta", "wisdom"],
+      "weight": 5
+    },
+    {
+      "text": "Legacy code is just code without an author willing to claim it.",
+      "category": "general",
+      "tags": ["dark", "truth"],
+      "weight": 3
+    },
+    {
+      "text": "Documentation is like a love letter to your future self. You never write it.",
+      "category": "general",
+      "tags": ["truth", "relatable", "wisdom"],
+      "weight": 3
+    },
+    {
+      "text": "Stack Overflow didn't go down. You just need to learn to read error messages.",
+      "category": "general",
+      "tags": ["sarcasm", "truth"],
+      "weight": 2
+    },
+    {
+      "text": "AI will replace developers. Developers using AI will replace developers not using AI.",
+      "category": "general",
+      "tags": ["wisdom", "truth", "meta"],
+      "weight": 3
+    },
+    {
+      "text": "The best code is no code. The second best is someone else's code.",
+      "category": "general",
+      "tags": ["wisdom", "humor"],
+      "weight": 3
+    },
+    {
+      "text": "TODO: refactor this. \u2014 Written 3 years ago. By you.",
+      "category": "general",
+      "tags": ["relatable", "pain", "humor"],
+      "weight": 4
+    }
+  ]
+}
