@@ -3,7 +3,8 @@
 import argparse
 
 from neo_says.quotes import get_categories, get_tags, get_quote, get_quote_of_the_day
-from neo_says.formatter import format_box
+from neo_says.themes import AVAILABLE_THEMES, render_quote
+from neo_says.config import get_default_theme, get_default_author, set_config
 
 
 def main():
@@ -39,8 +40,24 @@ def main():
         action="store_true",
         help="Print without the box (for piping)",
     )
+    parser.add_argument(
+        "--theme",
+        choices=AVAILABLE_THEMES,
+        default=None,
+        help="Display theme (box, minimal, ascii-art, cowsay)",
+    )
+    parser.add_argument(
+        "--set-theme",
+        choices=AVAILABLE_THEMES,
+        help="Set default theme and save to config",
+    )
 
     args = parser.parse_args()
+
+    if args.set_theme:
+        set_config("display.theme", args.set_theme)
+        print(f"Default theme set to: {args.set_theme}")
+        return
 
     if args.list_categories:
         from neo_says.quotes import get_quotes_by_category
@@ -61,7 +78,10 @@ def main():
     else:
         quote, cat = get_quote(category=args.category, tag=args.tag)
 
+    theme = args.theme or get_default_theme()
+    author = get_default_author()
+
     if args.raw:
         print(quote)
     else:
-        print(format_box(quote))
+        render_quote(quote, author=author, theme=theme)

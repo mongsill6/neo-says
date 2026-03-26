@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "neo-says"
-version = "1.0.0"
+version = "3.0.0"
 description = "A snarky CLI fortune teller for developers"
 readme = "README.md"
 license = "MIT"
@@ -12,8 +12,11 @@ requires-python = ">=3.8"
 authors = [
     {name = "mongsill6"},
 ]
+dependencies = [
+    "rich>=13.0",
+    "tomli>=2.0; python_version < '3.11'",
+]
 classifiers = [
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
