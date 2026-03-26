@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-"""neo-says: A snarky CLI fortune teller for developers."""
+"""Quote database and selection logic."""
 
 import random
-import argparse
-import sys
 
 QUOTES = {
     "git": [
@@ -55,74 +52,8 @@ QUOTES = {
 
 
 def get_quote(category=None):
+    """Get a random quote, optionally filtered by category."""
     if category and category in QUOTES:
         return random.choice(QUOTES[category]), category
     cat = random.choice(list(QUOTES.keys()))
     return random.choice(QUOTES[cat]), cat
-
-
-def format_box(text, author="Neo"):
-    lines = []
-    words = text.split()
-    current = ""
-    max_width = 46
-
-    for word in words:
-        if len(current) + len(word) + 1 <= max_width:
-            current = f"{current} {word}" if current else word
-        else:
-            lines.append(current)
-            current = word
-    if current:
-        lines.append(current)
-
-    width = max(len(line) for line in lines)
-    width = max(width, len(author) + 4)
-
-    box = []
-    box.append(f"╭{'─' * (width + 2)}╮")
-    for line in lines:
-        box.append(f"│ {line:<{width}} │")
-    box.append(f"│ {' ' * (width - len(author) - 3)}— {author} │")
-    box.append(f"╰{'─' * (width + 2)}╯")
-
-    return "\n".join(box)
-
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="Snarky developer wisdom from Neo."
-    )
-    parser.add_argument(
-        "-c", "--category",
-        choices=list(QUOTES.keys()),
-        help="Filter quotes by category",
-    )
-    parser.add_argument(
-        "-l", "--list-categories",
-        action="store_true",
-        help="List available categories",
-    )
-    parser.add_argument(
-        "--raw",
-        action="store_true",
-        help="Print without the box (for piping)",
-    )
-
-    args = parser.parse_args()
-
-    if args.list_categories:
-        for cat, quotes in QUOTES.items():
-            print(f"  {cat:<15} ({len(quotes)} quotes)")
-        return
-
-    quote, cat = get_quote(args.category)
-
-    if args.raw:
-        print(quote)
-    else:
-        print(format_box(quote))
-
-
-if __name__ == "__main__":
-    main()
