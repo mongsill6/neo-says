@@ -1,0 +1,13 @@
+site_name: neo-says
+site_url: https://mongsill6.github.io/neo-says
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+
+repo_url: https://github.com/mongsill6/neo-says
+
+nav:
+  - Home: index.md
