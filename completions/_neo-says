@@ -1,0 +1,89 @@
+#compdef neo-says
+
+# zsh completion for neo-says
+
+_neo_says_themes=(
+    'box:Box-style border theme'
+    'minimal:Minimal theme with no borders'
+    'ascii-art:ASCII art decorations'
+    'cowsay:Classic cowsay style'
+)
+
+_neo_says_langs=(
+    'en:English'
+    'ko:Korean'
+    'ja:Japanese'
+)
+
+_neo_says_pack() {
+    local -a pack_commands
+    pack_commands=(
+        'list:List installed quote packs'
+        'install:Install a quote pack from file'
+        'remove:Remove an installed quote pack'
+    )
+
+    _arguments -C \
+        '1:pack command:->pack_cmd' \
+        '*::pack arg:->pack_arg'
+
+    case $state in
+        pack_cmd)
+            _describe -t commands 'pack subcommand' pack_commands
+            ;;
+        pack_arg)
+            case ${words[1]} in
+                install)
+                    _files
+                    ;;
+                remove)
+                    _message 'pack name'
+                    ;;
+                list)
+                    ;;
+            esac
+            ;;
+    esac
+}
+
+_neo_says() {
+    local -a subcommands
+    subcommands=(
+        'tui:Launch interactive TUI mode'
+        'pack:Manage quote packs'
+    )
+
+    _arguments -C \
+        '(-c --category)'{-c,--category}'[Filter by category]:category' \
+        '(-t --tag)'{-t,--tag}'[Filter by tag]:tag' \
+        '(-l --list-categories)'{-l,--list-categories}'[List available categories]' \
+        '--list-tags[List available tags]' \
+        '--today[Show today'\''s quote]' \
+        '--raw[Output raw text without theme]' \
+        '--theme[Set theme for this invocation]:theme:(('$_neo_says_themes'))' \
+        '--set-theme[Set default theme]:theme:(('$_neo_says_themes'))' \
+        '--lang[Set language for this invocation]:language:(('$_neo_says_langs'))' \
+        '--set-lang[Set default language]:language:(('$_neo_says_langs'))' \
+        '--pack[Use a specific quote pack]:pack name' \
+        '(-h --help)'{-h,--help}'[Show help message]' \
+        '1:subcommand:->subcmd' \
+        '*::subcommand args:->subcmd_args'
+
+    case $state in
+        subcmd)
+            _describe -t commands 'neo-says subcommand' subcommands
+            ;;
+        subcmd_args)
+            case ${words[1]} in
+                tui)
+                    _message 'no arguments'
+                    ;;
+                pack)
+                    _neo_says_pack
+                    ;;
+            esac
+            ;;
+    esac
+}
+
+_neo_says "$@"
