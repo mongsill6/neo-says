@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "neo-says"
-version = "6.0.0"
+version = "7.0.0"
 description = "A snarky CLI fortune teller for developers"
 readme = "README.md"
 license = "MIT"
@@ -27,6 +27,10 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Games/Entertainment :: Fortune Cookies",
 ]
+
+[project.optional-dependencies]
+server = ["fastapi>=0.104.0", "uvicorn[standard]>=0.24.0", "slowapi>=0.1.9"]
+dev = ["pytest>=7.0", "httpx>=0.25.0", "ruff>=0.1.0"]
 
 [project.urls]
 Homepage = "https://github.com/mongsill6/neo-says"
