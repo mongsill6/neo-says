@@ -1,0 +1,21 @@
+/* neo-says custom styles */
+
+/* Slightly brighter code blocks for the slate theme */
+.md-typeset code {
+  color: #e0e0e0;
+}
+
+/* Accent the site title */
+.md-header__title {
+  font-weight: 700;
+}
+
+/* Give admonitions a subtle glow */
+.md-typeset .admonition {
+  border-left-width: 4px;
+}
+
+/* Tab labels */
+.md-typeset .tabbed-labels > label {
+  font-weight: 600;
+}

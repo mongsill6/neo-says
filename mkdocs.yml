@@ -1,13 +1,92 @@
 site_name: neo-says
 site_url: https://mongsill6.github.io/neo-says
+site_description: A snarky CLI fortune teller for developers
+site_author: mongsill6
+
+repo_url: https://github.com/mongsill6/neo-says
+repo_name: mongsill6/neo-says
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   palette:
     scheme: slate
     primary: deep purple
+    accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
 
-repo_url: https://github.com/mongsill6/neo-says
+plugins:
+  - search
 
 nav:
   - Home: index.md
+  - Getting Started: getting-started.md
+  - Configuration: configuration.md
+  - Themes: themes.md
+  - Plugins & Packs: plugins.md
+  - API Reference: api-reference.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mongsill6/neo-says
+      name: neo-says on GitHub
+
+extra_css:
+  - stylesheets/extra.css
