@@ -1,0 +1,56 @@
+name: "✨ 명언 제출 | Quote Submission"
+description: "새로운 명언을 제출합니다 | Submit a new quote"
+title: "[Quote] "
+labels: ["quote-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        명언을 제출해 주셔서 감사합니다! 아래 양식을 작성해 주세요.
+        Thank you for submitting a quote! Please fill out the form below.
+  - type: input
+    id: quote
+    attributes:
+      label: "명언 | Quote"
+      description: "제출할 명언을 입력하세요 | Enter the quote"
+      placeholder: "The only way to do great work is to love what you do."
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: "저자 | Author"
+      description: "명언의 저자를 입력하세요 | Enter the author"
+      placeholder: "Steve Jobs"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "카테고리 | Category"
+      description: "명언의 카테고리를 선택하세요 | Select the category"
+      options:
+        - motivation
+        - wisdom
+        - humor
+        - philosophy
+        - science
+        - life
+        - other
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "출처 | Source (Optional)"
+      description: "명언의 출처를 입력하세요 | Enter the source"
+      placeholder: "Stanford Commencement Speech, 2005"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: "추가 설명 | Additional Context (Optional)"
+      description: "명언에 대한 추가 설명이 있다면 작성해 주세요"
+    validations:
+      required: false
