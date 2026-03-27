@@ -1,0 +1,227 @@
+{
+  "version": "2.0",
+  "quotes": [
+    {
+      "text": "git commit -m '일단 돌아가긴 함'",
+      "category": "git",
+      "tags": ["humor", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "force push는 내 팀원을 향한 무언의 선전포고다.",
+      "category": "git",
+      "tags": ["sarcasm", "dark", "truth"],
+      "weight": 3
+    },
+    {
+      "text": "merge conflict를 해결하는 건 기술이 아니라 심리전이다.",
+      "category": "git",
+      "tags": ["truth", "pain", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "커밋 메시지 '수정'은 만국 공통어다.",
+      "category": "git",
+      "tags": ["humor", "relatable", "sarcasm"],
+      "weight": 5
+    },
+    {
+      "text": "git blame을 치면 항상 내가 나온다. 우주의 섭리다.",
+      "category": "git",
+      "tags": ["dark", "humor", "pain"],
+      "weight": 3
+    },
+    {
+      "text": "stash는 내가 직면하기 싫은 문제들의 무덤이다.",
+      "category": "git",
+      "tags": ["truth", "dark", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "3개월 전 내가 쓴 코드를 보는 순간, 그 사람이 나라는 게 믿기지 않는다.",
+      "category": "debugging",
+      "tags": ["humor", "relatable", "pain"],
+      "weight": 5
+    },
+    {
+      "text": "print로 디버깅하면 안 된다는 걸 안다. 그래도 한다.",
+      "category": "debugging",
+      "tags": ["truth", "relatable", "humor"],
+      "weight": 4
+    },
+    {
+      "text": "버그는 내가 만든 게 아니다. 코드가 예상치 못한 방식으로 동작한 것이다.",
+      "category": "debugging",
+      "tags": ["sarcasm", "humor", "meta"],
+      "weight": 3
+    },
+    {
+      "text": "왜 동작하는지 모르겠지만 건드리면 안 된다. 이게 레거시의 본질이다.",
+      "category": "debugging",
+      "tags": ["dark", "truth", "wisdom"],
+      "weight": 4
+    },
+    {
+      "text": "재현이 안 되면 버그가 아니다. 신비 현상이다.",
+      "category": "debugging",
+      "tags": ["sarcasm", "humor", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "스택 오버플로우 답변을 붙여넣기 전에 이해하려고 했다. 그 다음 그냥 붙여넣었다.",
+      "category": "debugging",
+      "tags": ["humor", "relatable", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "이 회의를 이메일로 했어야 했는데.",
+      "category": "meetings",
+      "tags": ["relatable", "sarcasm", "pain"],
+      "weight": 5
+    },
+    {
+      "text": "30분 회의가 2시간이 된 순간 내 영혼은 이미 퇴근했다.",
+      "category": "meetings",
+      "tags": ["dark", "humor", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "애자일 스탠드업은 서서 하는 이유가 있다. 빨리 끝나라는 압박이다.",
+      "category": "meetings",
+      "tags": ["sarcasm", "wisdom", "humor"],
+      "weight": 3
+    },
+    {
+      "text": "기획자가 '간단하게'라고 말하는 순간, 개발자는 2주가 사라짐을 예감한다.",
+      "category": "meetings",
+      "tags": ["truth", "pain", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "회의실 화이트보드의 다이어그램은 실제 구현과 아무 관계가 없다.",
+      "category": "meetings",
+      "tags": ["sarcasm", "truth", "humor"],
+      "weight": 3
+    },
+    {
+      "text": "이 회의의 목적은 다음 회의 일정을 잡는 것이었다.",
+      "category": "meetings",
+      "tags": ["dark", "sarcasm", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "코드 리뷰 코멘트 'LGTM'은 '나 이거 안 읽음'의 암호다.",
+      "category": "code-review",
+      "tags": ["sarcasm", "humor", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "네이밍 컨벤션으로 코드 리뷰 30분을 썼다. 핵심 로직은 아무도 안 봤다.",
+      "category": "code-review",
+      "tags": ["pain", "truth", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "PR을 올리는 순간 내가 놓친 버그가 보인다. 이게 양자역학이다.",
+      "category": "code-review",
+      "tags": ["humor", "relatable", "meta"],
+      "weight": 5
+    },
+    {
+      "text": "1000줄 PR은 리뷰가 아니라 의식이다. 다들 LGTM만 기다린다.",
+      "category": "code-review",
+      "tags": ["sarcasm", "truth", "dark"],
+      "weight": 3
+    },
+    {
+      "text": "코드 리뷰 중 '왜 이렇게 했어요?'는 99% 비난이다.",
+      "category": "code-review",
+      "tags": ["dark", "truth", "sarcasm"],
+      "weight": 3
+    },
+    {
+      "text": "내 코드에 테스트 커버리지 100%는 테스트를 믿는 게 아니라 상사를 속이는 것이다.",
+      "category": "code-review",
+      "tags": ["sarcasm", "humor", "dark"],
+      "weight": 3
+    },
+    {
+      "text": "금요일 오후 5시 배포는 용기가 아니라 무모함이다.",
+      "category": "production",
+      "tags": ["dark", "wisdom", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "롤백 버튼은 희망이다. 롤백해도 안 되면 절망이다.",
+      "category": "production",
+      "tags": ["dark", "humor", "pain"],
+      "weight": 4
+    },
+    {
+      "text": "온콜 당번인 날 꼭 장애가 난다. 우주는 공평하지 않다.",
+      "category": "production",
+      "tags": ["dark", "relatable", "pain"],
+      "weight": 4
+    },
+    {
+      "text": "로컬에선 됐는데요. 이 말은 변명이 아니라 보고서다.",
+      "category": "production",
+      "tags": ["sarcasm", "humor", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "모니터링 대시보드는 장애 나고 나서 처음 열게 된다.",
+      "category": "production",
+      "tags": ["dark", "truth", "sarcasm"],
+      "weight": 3
+    },
+    {
+      "text": "핫픽스로 더 큰 버그를 만드는 것은 개발자의 오랜 전통이다.",
+      "category": "production",
+      "tags": ["dark", "humor", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "코드는 작동하는 게 아니라 덜 틀린 상태일 뿐이다.",
+      "category": "general",
+      "tags": ["wisdom", "dark", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "주석 없는 코드는 10년 뒤의 나에게 보내는 저주다.",
+      "category": "general",
+      "tags": ["humor", "truth", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "추정치를 2배로 말해도 항상 부족하다. 4배로 말했어야 했다.",
+      "category": "general",
+      "tags": ["wisdom", "pain", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "기술 부채는 내가 만들고 다른 사람이 갚는다.",
+      "category": "general",
+      "tags": ["dark", "sarcasm", "truth"],
+      "weight": 3
+    },
+    {
+      "text": "문서화할 시간에 기능을 만든다. 그래서 문서가 없다.",
+      "category": "general",
+      "tags": ["sarcasm", "relatable", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "클린 코드는 이상이다. 마감은 현실이다.",
+      "category": "general",
+      "tags": ["dark", "wisdom", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "신입 때는 질문하기 두렵다. 10년 차는 모른다는 걸 들킬까봐 두렵다.",
+      "category": "general",
+      "tags": ["dark", "humor", "relatable"],
+      "weight": 3
+    }
+  ]
+}

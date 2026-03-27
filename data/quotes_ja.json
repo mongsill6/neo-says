@@ -1,0 +1,191 @@
+{
+  "version": "2.0",
+  "quotes": [
+    {
+      "text": "git pushする前に気づけばよかったのに、なぜいつもpushした後に気づくんだ。",
+      "category": "git",
+      "tags": ["pain", "relatable", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "git blameで自分の名前が出てきた瞬間、そっとウィンドウを閉じる。",
+      "category": "git",
+      "tags": ["humor", "relatable", "sarcasm"],
+      "weight": 5
+    },
+    {
+      "text": "「とりあえずforce pushしとけ」は現代の呪文である。",
+      "category": "git",
+      "tags": ["dark", "sarcasm", "truth"],
+      "weight": 3
+    },
+    {
+      "text": "コンフリクトを解決するたびに、なぜか新しいバグが生まれる。これはgitの陰謀だ。",
+      "category": "git",
+      "tags": ["pain", "sarcasm", "humor"],
+      "weight": 4
+    },
+    {
+      "text": "「後でコミットする」と言ったきり、そのコードは永遠にステージングに残り続ける。",
+      "category": "git",
+      "tags": ["relatable", "truth", "dark"],
+      "weight": 3
+    },
+    {
+      "text": "printfデバッグは恥ずかしいと言うが、今日も世界中のエンジニアがprintfをしている。",
+      "category": "debugging",
+      "tags": ["truth", "humor", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "バグを直したと思ったら、実はバグが引越ししただけだった。",
+      "category": "debugging",
+      "tags": ["pain", "truth", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "再現しないバグは存在しないバグではない。ただ次の本番リリース後に現れる。",
+      "category": "debugging",
+      "tags": ["dark", "truth", "sarcasm"],
+      "weight": 4
+    },
+    {
+      "text": "「私の環境では動く」は技術的な免責事項として世界共通で通用してほしい。",
+      "category": "debugging",
+      "tags": ["humor", "sarcasm", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "スタックトレースを読んでいるうちに、なぜか全然関係ない別の問題を発見してしまった。",
+      "category": "debugging",
+      "tags": ["pain", "relatable", "humor"],
+      "weight": 3
+    },
+    {
+      "text": "この会議は30分で終わると言われたのに、気づいたら2時間が経っていた。時間の歪みはここで起きる。",
+      "category": "meetings",
+      "tags": ["pain", "sarcasm", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "「これはメールで済む話だったのでは？」という思いを胸に、今日も会議室に座る。",
+      "category": "meetings",
+      "tags": ["truth", "sarcasm", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "画面共有がうまくいった瞬間が、会議で一番盛り上がる瞬間である。",
+      "category": "meetings",
+      "tags": ["humor", "relatable", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "「では次回の会議で詳しく話しましょう」は、何も決めなかったことのエレガントな言い方だ。",
+      "category": "meetings",
+      "tags": ["sarcasm", "truth", "wisdom"],
+      "weight": 4
+    },
+    {
+      "text": "リモート会議で誰かが「聞こえますか？」と言うたびに、集中力が3秒分消える。",
+      "category": "meetings",
+      "tags": ["pain", "humor", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "コードレビューのコメントは増えても、コードの品質が上がるとは限らない。",
+      "category": "code-review",
+      "tags": ["truth", "sarcasm", "wisdom"],
+      "weight": 4
+    },
+    {
+      "text": "「なぜこう書いたのか」と聞かれても、3ヶ月前の自分に聞いてください。",
+      "category": "code-review",
+      "tags": ["humor", "relatable", "pain"],
+      "weight": 5
+    },
+    {
+      "text": "LGTMと書いた後、実はほとんど読んでいないことを神様だけが知っている。",
+      "category": "code-review",
+      "tags": ["dark", "sarcasm", "humor"],
+      "weight": 4
+    },
+    {
+      "text": "「ここのネーミングが気になる」というコメントは、もっと大きな問題から目を逸らすための戦術だ。",
+      "category": "code-review",
+      "tags": ["sarcasm", "truth", "relatable"],
+      "weight": 3
+    },
+    {
+      "text": "自分のコードを半年後にレビューすると、書いた本人であることを忘れて厳しいコメントをしてしまう。",
+      "category": "code-review",
+      "tags": ["humor", "relatable", "truth"],
+      "weight": 4
+    },
+    {
+      "text": "本番環境でのデバッグは、目隠しでダーツを投げるようなものだ。しかも的が動いている。",
+      "category": "production",
+      "tags": ["dark", "humor", "pain"],
+      "weight": 4
+    },
+    {
+      "text": "「本番だけで起きるバグ」は、本番の空気を吸って初めて目覚める生命体だ。",
+      "category": "production",
+      "tags": ["sarcasm", "dark", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "金曜の夕方にデプロイしたエンジニアは、月曜まで穏やかに眠れない。",
+      "category": "production",
+      "tags": ["dark", "truth", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "ログを見れば全てわかると思っていたが、ログは都合のいいことしか教えてくれない。",
+      "category": "production",
+      "tags": ["truth", "sarcasm", "pain"],
+      "weight": 3
+    },
+    {
+      "text": "「今すぐロールバックしろ」と言われるのは、必ずデプロイ直後の退勤時刻だ。",
+      "category": "production",
+      "tags": ["dark", "relatable", "pain"],
+      "weight": 4
+    },
+    {
+      "text": "動いているコードに触れるな。これは戒めではなく、生存本能だ。",
+      "category": "general",
+      "tags": ["wisdom", "truth", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "ドキュメントを書く時間があれば、もう一個機能を作れると思っている限り、ドキュメントは永遠に存在しない。",
+      "category": "general",
+      "tags": ["truth", "sarcasm", "dark"],
+      "weight": 4
+    },
+    {
+      "text": "「技術的負債」とは、未来の自分への手紙に「ごめんなさい」と書く行為だ。",
+      "category": "general",
+      "tags": ["wisdom", "humor", "relatable"],
+      "weight": 4
+    },
+    {
+      "text": "締め切りが迫ると、突然コードが美しく書けなくても気にならなくなる。これをデッドライン悟りという。",
+      "category": "general",
+      "tags": ["humor", "relatable", "truth"],
+      "weight": 5
+    },
+    {
+      "text": "「このコードは一時的なものです」というコメントは、5年後も同じ場所にある。",
+      "category": "general",
+      "tags": ["truth", "dark", "relatable"],
+      "weight": 5
+    },
+    {
+      "text": "仕様変更を聞いた瞬間の顔は、世界共通で同じ表情をしている。",
+      "category": "general",
+      "tags": ["humor", "relatable", "pain"],
+      "weight": 4
+    }
+  ]
+}

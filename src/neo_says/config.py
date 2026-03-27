@@ -25,6 +25,9 @@ _DEFAULTS: Dict[str, Dict[str, str]] = {
         "theme": "box",
         "author": "Neo",
     },
+    "locale": {
+        "lang": "auto",
+    },
 }
 
 
@@ -60,6 +63,12 @@ def get_default_author() -> str:
     """Return the configured default author."""
     config = get_config()
     return str(config["display"]["author"])
+
+
+def get_default_lang() -> str:
+    """Return the configured default language ('auto' or a lang code)."""
+    config = get_config()
+    return str(config.get("locale", {}).get("lang", "auto"))
 
 
 def _write_config(config: Dict[str, Any]) -> None:
