@@ -1,0 +1,45 @@
+name: devops-wisdom
+version: "1.0"
+author: "Neo"
+description: "DevOps and SRE wisdom delivered with the cold, unforgiving truth that only production incidents can teach you."
+quotes:
+  - text: "It works on my machine. Congratulations, your machine isn't production."
+    category: "devops"
+    tags: [sarcasm, relatable, truth]
+    weight: 5
+  - text: "Kubernetes is simple. You just need a PhD, three certifications, and the will to live."
+    category: "infrastructure"
+    tags: [sarcasm, pain, truth]
+    weight: 4
+  - text: "There are two types of companies: those who have been woken up at 3 AM by PagerDuty, and those who will be."
+    category: "incidents"
+    tags: [dark, wisdom, truth]
+    weight: 3
+  - text: "Your CI/CD pipeline is not 'almost working.' It's broken. There is no in-between."
+    category: "devops"
+    tags: [sarcasm, truth]
+    weight: 4
+  - text: "Docker: because 'it works on my machine' needed a $50 billion industry built around it."
+    category: "infrastructure"
+    tags: [sarcasm, humor]
+    weight: 3
+  - text: "The monitoring dashboard is green. That means either everything is fine, or the monitoring is broken."
+    category: "incidents"
+    tags: [dark, wisdom, relatable]
+    weight: 5
+  - text: "Every 'quick deploy on Friday' is a horror story waiting to be told at the next postmortem."
+    category: "devops"
+    tags: [dark, wisdom, pain]
+    weight: 4
+  - text: "Your rollback plan is cute. Too bad you've never actually tested it."
+    category: "incidents"
+    tags: [sarcasm, truth, dark]
+    weight: 3
+  - text: "Infrastructure as Code means your infrastructure bugs are now version-controlled. Progress."
+    category: "infrastructure"
+    tags: [sarcasm, humor, truth]
+    weight: 2
+  - text: "On-call rotation: the adult version of 'not it' except everyone loses."
+    category: "incidents"
+    tags: [humor, dark, relatable, pain]
+    weight: 3

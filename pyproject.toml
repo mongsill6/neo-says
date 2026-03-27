@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "neo-says"
-version = "5.0.0"
+version = "6.0.0"
 description = "A snarky CLI fortune teller for developers"
 readme = "README.md"
 license = "MIT"
@@ -16,6 +16,7 @@ dependencies = [
     "rich>=13.0",
     "textual>=0.40.0",
     "tomli>=2.0; python_version < '3.11'",
+    "pyyaml>=6.0",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

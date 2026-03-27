@@ -1,0 +1,45 @@
+name: crypto-bro
+version: "1.0"
+author: "Neo"
+description: "A loving tribute to the blockchain maximalists who confused gambling with innovation."
+quotes:
+  - text: "Decentralized finance: because centralized finance wasn't losing people's money fast enough."
+    category: "crypto"
+    tags: [sarcasm, humor, dark]
+    weight: 5
+  - text: "Your NFT isn't art. It's a receipt for a JPEG that anyone can right-click and save."
+    category: "web3"
+    tags: [sarcasm, truth, humor]
+    weight: 4
+  - text: "HODL is just denial with better branding."
+    category: "crypto"
+    tags: [sarcasm, truth, dark]
+    weight: 5
+  - text: "Web3 will fix everything. Except the part where it needs to actually work."
+    category: "web3"
+    tags: [sarcasm, humor, truth]
+    weight: 3
+  - text: "To the moon. And by moon, I mean the exact same place your savings went: into the void."
+    category: "finance"
+    tags: [dark, sarcasm, pain]
+    weight: 4
+  - text: "The blockchain is immutable. Your financial ruin, however, is very much permanent."
+    category: "crypto"
+    tags: [dark, humor, truth]
+    weight: 3
+  - text: "A decentralized autonomous organization is just a group chat that lost everyone's money democratically."
+    category: "web3"
+    tags: [sarcasm, humor, dark, wisdom]
+    weight: 4
+  - text: "Smart contracts: because regular contracts had too much legal protection for your taste."
+    category: "web3"
+    tags: [sarcasm, truth, dark]
+    weight: 3
+  - text: "He said 'buy the dip.' He did not mention there would be seven more dips."
+    category: "finance"
+    tags: [humor, relatable, pain, dark]
+    weight: 2
+  - text: "You're not early. You're just holding the bag for someone who was."
+    category: "crypto"
+    tags: [truth, dark, wisdom]
+    weight: 5

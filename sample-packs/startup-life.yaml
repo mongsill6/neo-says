@@ -1,0 +1,45 @@
+name: startup-life
+version: "1.0"
+author: "Neo"
+description: "The brutal, unfiltered truth about startup culture that your pitch deck conveniently omits."
+quotes:
+  - text: "Your MVP isn't minimal or viable. It's just a product nobody asked for, shipped early."
+    category: "startup"
+    tags: [sarcasm, truth, humor]
+    weight: 4
+  - text: "We don't have tech debt. We have tech bankruptcy with a fresh coat of paint."
+    category: "culture"
+    tags: [dark, truth, relatable]
+    weight: 5
+  - text: "Pivoting is just a fancy word for 'the first idea failed but we still have runway.'"
+    category: "startup"
+    tags: [sarcasm, truth]
+    weight: 3
+  - text: "Our standup only takes 15 minutes. If you don't count the 45-minute argument that follows."
+    category: "management"
+    tags: [humor, relatable, pain]
+    weight: 4
+  - text: "We're not laying people off. We're 'right-sizing the team for the next phase of growth.'"
+    category: "management"
+    tags: [dark, sarcasm, truth]
+    weight: 3
+  - text: "Disruption: when a 23-year-old with a MacBook thinks they understand your industry better than you do."
+    category: "startup"
+    tags: [sarcasm, humor, truth]
+    weight: 5
+  - text: "Series A: the round where you trade equity for the privilege of burning money faster."
+    category: "startup"
+    tags: [dark, truth, wisdom]
+    weight: 3
+  - text: "We move fast and break things. Mostly production. And trust. And the deployment pipeline."
+    category: "culture"
+    tags: [sarcasm, dark, humor, relatable]
+    weight: 4
+  - text: "Scaling problems are a luxury. Your problem is that nobody is using your product."
+    category: "startup"
+    tags: [truth, dark, wisdom]
+    weight: 2
+  - text: "Culture fit means you're willing to work weekends and call it 'passion.'"
+    category: "culture"
+    tags: [dark, sarcasm, truth, pain]
+    weight: 4
