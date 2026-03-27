@@ -4,6 +4,7 @@ import json
 import hashlib
 import random
 from datetime import date
+from functools import lru_cache
 from pathlib import Path
 from typing import List, Optional, Tuple
 
@@ -17,6 +18,7 @@ _LANG_FILES = {
 }
 
 
+@lru_cache(maxsize=8)
 def _load_quotes(lang: str = "en") -> list:
     """Load quotes from JSON data file for the given language.
 
