@@ -41,6 +41,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Snarky developer wisdom from Neo."
     )
+    subparsers = parser.add_subparsers(dest="command")
+    subparsers.add_parser("tui", help="Launch interactive TUI browser")
     parser.add_argument(
         "-c", "--category",
         help="Filter quotes by category",
@@ -93,6 +95,11 @@ def main():
     )
 
     args = parser.parse_args()
+
+    if args.command == "tui":
+        from neo_says.tui import run_tui
+        run_tui()
+        return
 
     if args.set_theme:
         set_config("display.theme", args.set_theme)
